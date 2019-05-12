@@ -25,7 +25,6 @@ function analyze() {
         if (this.readyState === 4) {
             var response = JSON.parse(e.target.responseText);
             el('result-label').innerHTML = `Result = ${response['result']}`;
-            el('result-label').innerHTML = `details = ${response['details']}`;
         }
         el('analyze-button').innerHTML = 'Analyze';
     }
