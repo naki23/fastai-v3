@@ -1,7 +1,5 @@
-# Starter for deploying [fast.ai](https://www.fast.ai) models on [Render](https://render.com)
+# A [fast.ai](https://www.fast.ai) model deployed on [Render](https://render.com)
 
-This repo can be used as a starting point to deploy [fast.ai](https://github.com/fastai/fastai) models on Render.
+Based on [this](https://course.fast.ai/deployment_render.html) guide.
 
-The sample app described here is up at https://fastai-v3.onrender.com. Test it out with bear images!
-
-The guide for production deployment to Render is at https://course.fast.ai/deployment_render.html.
+Currently you can use the [webserver](https://termtud-feherver.onrender.com/) created from this repo to recognize white blood cells based on [this dataset](https://www.kaggle.com/paultimothymooney/blood-cells).
